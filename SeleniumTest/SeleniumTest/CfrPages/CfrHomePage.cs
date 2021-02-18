@@ -21,11 +21,10 @@ namespace SeleniumTest
         private IWebElement closePopupButton => driver.FindElement(By.CssSelector("#hwp-30238 > div > div.hwp-close"));
         private IWebElement subscribeRadioButtonYes => driver.FindElement(By.CssSelector("#hwp-30238 > div > div.hwp-close"));
 
-        public CfrHomePage(IWebDriver driver)
+        public CfrHomePage(IWebDriver driver) //Constructor
         {
             this.driver = driver;
         }
-
 
         public void GoTo()
         {
@@ -36,7 +35,6 @@ namespace SeleniumTest
         {
             departureTextbox.SendKeys(departure);
         }
-
         public void SetDestination(string destination)
         {
             destinationTextbox.SendKeys(destination);

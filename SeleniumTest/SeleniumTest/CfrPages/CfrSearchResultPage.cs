@@ -28,6 +28,5 @@ namespace SeleniumTest
             Thread.Sleep(2000);
             return title.Contains(departure) && title.Contains(destination);
         }
-
     }
 }

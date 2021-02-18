@@ -23,8 +23,6 @@ namespace SeleniumTest
             driver.Manage().Window.Maximize();
         }
 
-
-
         [TearDown]
         public void Close()
         {
