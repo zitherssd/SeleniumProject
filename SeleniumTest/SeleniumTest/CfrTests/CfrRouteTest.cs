@@ -15,7 +15,6 @@ namespace SeleniumTest
         [Test]
         public void RouteTest()
         {
-
             CfrHomePage cfrHomePage = new CfrHomePage(driver);
             cfrHomePage.GoTo();
             cfrHomePage.ClosePopup();
